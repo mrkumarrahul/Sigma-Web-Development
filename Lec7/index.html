@@ -13,10 +13,29 @@
             <input type="text" name="username" placeholder="Enter your name" aria-label="Enter username">
         </div>
         <div>
-            <input type="radio" id="male" name="gender" value="male">
+            <!-- <input type="radio" id="male" name="gender" value="male">
             <label for="male">Male</label>
             <input type="radio" id="male" name="gender" value="male">
-            <label for="female">female</label>
+            <label for="female">female</label> -->
+            <input type="radio" id="male" name="gender" value="male" autofocus>
+            <label for="female">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="male">Male</label>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" pattern="[a-z A-Z 0-9]+" autofocus value="yes">
+            <label for="subscribe">subscribe to Newslater</label>
+            <div> 
+                <label for="comment">Enter your Comment:</label>
+                <textarea  name="comment" id="comment" cols="60" rows="5"> </textarea>
+            </div>
+            <div>
+                <select name="fruits" id="fruits">
+                    <option value="guava">guava</option>
+                    <option value="oniion">Banana</option>
+                    <option value="chilli">Mango</option>
+                </select>
+            </div>
         </div>
     </form>
 </body>
