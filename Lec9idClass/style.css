@@ -1,0 +1,23 @@
+.first {
+    display: flex;
+    /* justify-content:left; */
+    gap:25px;
+    background-color: rgb(46, 46, 104);
+    color: white;
+    height:80px;
+}
+.middle{
+    background-color: rgb(188, 188, 225);
+}
+#home{
+    color:yellowgreen;
+}
+#home{
+    color: yellowgreen;
+}
+#yellow{
+    color: bisque;
+}
+#great{
+    width: 25px;
+}
